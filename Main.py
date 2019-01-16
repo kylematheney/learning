@@ -1,13 +1,16 @@
-def get_credentials():
+def get_username():
     global username
-    global password
-
     username = input("Enter a username: ")
+
+
+def get_password():
+    global password
     password = input("Enter a password: ")
 
 
-get_credentials()  # run the function
+get_username()
+get_password()
 
 print(username, " ", password)  # Test
 
-# Now directly from PyCharm
+#Testing a change
