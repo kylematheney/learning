@@ -10,6 +10,4 @@ get_credentials()  # run the function
 
 print(username, " ", password)  # Test
 
-# more changes
-# and more
-# and again
+# Now directly from PyCharm
